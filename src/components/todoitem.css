@@ -1,0 +1,55 @@
+.todo-item{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 5px;
+    
+}
+.status{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: lightgray;
+    
+}
+.status::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+  background-color: rgb(204, 204, 207);
+    
+}
+.bg-dodger-blue{
+    background-color: dodgerblue;
+}
+.delete-btn{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://icon-library.com/images/delete-icon/delete-icon-14.jpg");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 2px;
+    border-radius: 50%;
+    border: none;
+    transition: 0.8s;
+    /* background-color: red; */
+}
+.delete-btn:hover{
+    transform: scale(1.1);
+}
+.completed{
+    text-decoration: line-through ;
+    color:green;
+}
