@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: linear-gradient(to left top, #d61a54, #d10069, #c7007f, #b50095, #9b1fab, #823bbc, #634dc9, #355bd2, #006dd5, #007dd3, #038ace, #3a96c7); */
-  background-color: rgb(216, 213, 213);
+  background: url("https://images.unsplash.com/photo-1651085410184-ef3725fe8e9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;

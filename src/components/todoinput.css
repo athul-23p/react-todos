@@ -1,5 +1,6 @@
 
 #todo-input{
+    min-width: 500px;
     width: 100%;
     height: 40px;
     display: flex;

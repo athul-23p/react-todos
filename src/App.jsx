@@ -41,6 +41,7 @@ function App() {
   const pendingTodos = todos.filter((el) => !el.status);
   return (
     <div className="App">
+      <h2>Todo App</h2>
       <TodoInput updateTodo={handleAddTodo} />
       {pendingTodos.map((el, index) => (
         <TodoItem
